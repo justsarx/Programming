@@ -34,7 +34,8 @@ public:
       cout << "Error: Unable to open file." << endl;
     }
     file.close();
-    
+    cin.get();
+    cin.get();
   }
 };
 
@@ -43,6 +44,7 @@ int main() {
   string n;
   Student lnmi;
   while (true) {
+    system("tput clear");
     cout << "\n\nPlease select an option from below :-" << endl;
     cout << "\t1. Add an entry to the list of students." << endl;
     cout << "\t2. Display the list of students." << endl;
