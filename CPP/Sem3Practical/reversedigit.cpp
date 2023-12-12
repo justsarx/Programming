@@ -17,8 +17,8 @@ int main() {
   cin >> number;
 
   int reversed_number = reverse_digits(number);
-  cout << "Original number: " << number << std::endl;
-  cout << "Reversed number: " << reversed_number << std::endl;
+  cout << "Original number: " << number << endl;
+  cout << "Reversed number: " << reversed_number << endl;
 
   return 0;
 }
