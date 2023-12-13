@@ -67,24 +67,41 @@ string convertNumberToWords(long long n) {
     string words[4] = {"", "Thousand", "Million", "Billion"};
     string output = "";
     int i = 0;
+
+    // Validate input
+    if (n < 0) {
+        return "Negative numbers not supported";
+    }
+
     while (n > 0) {
         int remainder = n % 1000;
+
         if (remainder != 0) {
             output = convertLessThanThousand(remainder) + " " + words[i] + " " + output;
         }
+
         n /= 1000;
         i++;
     }
+
     return output;
 }
 
 int main() {
     long long number;
-    cout << "Enter an amount in figures: ";
+
+    cout << "Enter a non-negative number: ";
     cin >> number;
+
+    // Check for invalid input
+    if (!cin) {
+        cout << "Invalid input" << endl;
+        return 1;
+    }
 
     string amountInWords = convertNumberToWords(number);
     cout << "Amount in words: " << amountInWords << endl;
 
     return 0;
 }
+
