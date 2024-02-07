@@ -1,0 +1,24 @@
+# ninja log v5
+5	387	1707235939105328120	CMakeFiles/CPP.dir/Sem3Practical/reversedigit.cpp.o	d19d1720bb0c95fb
+2	390	1707235939105328120	CMakeFiles/CPP.dir/Sem3Practical/hanoi.cpp.o	49b102ac92fd4da0
+1	424	1707235939141995796	CMakeFiles/CPP.dir/Sem3Practical/freq.cpp.o	940d452c7d063377
+9	425	1707235939141995796	CMakeFiles/CPP.dir/Sem3Practical/sort_arr.cpp.o	570a2ebfa5d8e5a
+2	426	1707235939141995796	CMakeFiles/CPP.dir/Sem3Practical/recur_fact.cpp.o	6191c9df475ad7a7
+1	427	1707235939145329221	CMakeFiles/CPP.dir/Sem3Practical/fibbonachi.cpp.o	40270276dc78d2cb
+1	430	1707235939148662646	CMakeFiles/CPP.dir/Sem3Practical/gen_seq.cpp.o	d3dd32a2ea12d7ba
+2	431	1707235939145329221	CMakeFiles/CPP.dir/Sem3Practical/matrix.cpp.o	a067f0e1ef9dd262
+2	431	1707235939145329221	CMakeFiles/CPP.dir/Sem3Practical/pascals_triangle.cpp.o	d3d0c9fdf176beaa
+5	432	1707235939145329221	CMakeFiles/CPP.dir/Sem3Practical/recur_sum.cpp.o	93b6e8f395149da
+5	432	1707235939148662646	CMakeFiles/CPP.dir/Sem3Practical/rem_dupe.cpp.o	d6c22398a305add3
+1	443	1707235939158662921	CMakeFiles/CPP.dir/Sem3Practical/gcd.cpp.o	28066ed09d6c66af
+2	467	1707235939185330322	CMakeFiles/CPP.dir/Sem3Practical/prime_sum.cpp.o	6c7c3868f96a1c58
+2	482	1707235939198664022	CMakeFiles/CPP.dir/Sem3Practical/int_to_char.cpp.o	4e3d14b84a65f675
+388	707	1707235939425336928	CMakeFiles/CPP.dir/Sem3Practical/str.cpp.o	d1e79bf8563c663e
+430	710	1707235939428670353	CMakeFiles/CPP.dir/mode.cpp.o	33eba5f0fde66786
+390	711	1707235939428670353	CMakeFiles/CPP.dir/Sem3Practical/swap.cpp.o	2db52b60130c4e40
+432	715	1707235939432003778	CMakeFiles/CPP.dir/triangle.cpp.o	fb1c0391640e00a8
+426	715	1707235939432003778	CMakeFiles/CPP.dir/mean.cpp.o	888a34bb4aeed421
+424	759	1707235939475338304	CMakeFiles/CPP.dir/database.cpp.o	abee9d7131213ae6
+425	772	1707235939488672005	CMakeFiles/CPP.dir/dup_arr.cpp.o	9c15fa03bac3c96f
+427	790	1707235939508672555	CMakeFiles/CPP.dir/median.cpp.o	d9087594bdfc8912
+431	798	1707235939515339405	CMakeFiles/CPP.dir/temp.cpp.o	84a7523e3c373cc3
