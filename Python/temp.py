@@ -11,4 +11,5 @@ class Test:
         print(self.c)
         print(self.d)
 
+
 Test().method()
