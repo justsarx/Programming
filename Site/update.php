@@ -16,11 +16,11 @@ session_start()
 
 <body>
   <div class="container">
-    <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
       <h1 class="h3 mb-3 fw-normal">Please enter new information</h1>
 
       <div class="form-floating">
-        <input type="email" name="email" class="form-control" value="<?php $_SESSION['email'] ?>">
+        <input type="email" name="email" class="form-control" value="<?php echo $_SESSION['email']; ?>">
         <label for="floatingEmail">Email</label>
       </div>
       <div class="form-floating">
@@ -51,7 +51,7 @@ session_start()
 </body>
 </html>
 
-<?php 
+<?php
 
 
 if (isset($_POST['username'])){

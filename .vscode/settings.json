@@ -14,23 +14,10 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MariaDB",
+            "name": "root",
+            "database": "mydb",
             "username": "root",
-            "name": "root",
-            "database": "test",
             "password": ""
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "root",
-            "database": "test",
-            "username": "root"
         }
     ]
 }
