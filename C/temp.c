@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdbool.h>
 
 static inline bool is_even(int num) {
