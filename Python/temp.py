@@ -1,3 +1,4 @@
+API_KEY = 2391743c-fe9b-4816-b4f3-71356b3941e2
 def fx(x):
     return x**2 - 3
 arr = [None] * len(range(0,10))
