@@ -1,6 +1,6 @@
 {
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.autoImportCompletions": true,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontFamily": "monospace",
     "editor.fontFamily": "JetBrainsMono Nerd Font"
 }
