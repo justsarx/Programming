@@ -1,1 +1,111 @@
-/.venv
+# .gitignore for C, C++, Python, and Java projects
+
+# Generic OS and Editor files
+##################################
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Swap and temporary files
+*.swp
+*~
+*.tmp
+
+# C & C++
+##################################
+
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled headers
+*.pch
+
+# Compiled executables and libraries
+# Windows
+*.exe
+*.dll
+*.lib
+# Linux/macOS
+*.out
+*.so
+*.a
+
+# Debug files
+*.pdb
+*.ilk
+*.exp
+
+# Java
+##################################
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Packaged files
+*.jar
+*.war
+*.ear
+
+# BlueJ files
+*.ctxt
+
+# DrJava files
+*.drjava
+
+# NetBeans project files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+
+# Python
+##################################
+
+# Virtual Environments
+/venv/
+/.venv/
+/env/
+/.env/
+/virtualenv/
+/venv.*
+/.venv.*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+/build/
+/develop-eggs/
+/dist/
+/downloads/
+/eggs/
+/.eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+/wheels/
+/share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
